@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // ボタン押したら遷移する
-        sendButton.setOnClickListener {
+        toumei.setOnClickListener {
             val intent = Intent(application, SubActivity::class.java)
             startActivity(intent)
         }
